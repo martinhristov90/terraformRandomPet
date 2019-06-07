@@ -43,4 +43,17 @@
     ------------------------------------------------------------------------
     ```
 
+- Now you can run `terraform apply` to create the `random_pet` resoruce, the output will look like this :
+    ```
+    random_pet.animal: Creating...
+      length:    "" => "2"
+      separator: "" => " "
+    random_pet.animal: Provisioning with 'local-exec'...
+    random_pet.animal (local-exec): Executing: ["/bin/sh" "-c" "echo Here is a random pet name : clear boar"]
+    random_pet.animal (local-exec): Here is a random pet name : clear boar
+    random_pet.animal: Creation complete after 0s (ID: clear boar)
+
+    Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+    ```
+
 - In order to destroy the created resources, you can use `terraform destroy`.
