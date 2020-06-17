@@ -1,5 +1,5 @@
 resource "random_pet" "animal" {
-  separator = "---"
+  separator = "----"
 
   # Printing the value of the randomly generated pet.
   provisioner "local-exec" "printing" {
