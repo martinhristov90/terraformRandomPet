@@ -3,6 +3,6 @@ resource "random_pet" "animal" {
 
   # Printing the value of the randomly generated pet.
   provisioner "local-exec" "printing" {
-    command = "echo Here is a awesome random pet name : ${random_pet.animal.0.id}"
+    command = "echo1 Here is a awesome random pet name : ${random_pet.animal.0.id}"
   }
 }
