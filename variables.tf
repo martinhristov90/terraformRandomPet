@@ -1,5 +1,5 @@
 variable "second_hello" {
-  default = "second_hello4"
+  default = "second_hello3"
   }
 
 variable "hello" {}
