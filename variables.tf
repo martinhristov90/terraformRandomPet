@@ -1,3 +1,5 @@
 variable "second_hello" {}
 
-variable "hello" {}
+variable "hello" {
+    default = "world1"
+}
